@@ -1,0 +1,162 @@
+/*
+This is a good layout for a mobile-first CSS template.
+Following this flow will minimize the number of styles you need to write and will ensure you are thinking, designing and developing mobile-first.
+Most of your styles get written like standard CSS, but for your mobile presentation. Generally speaking, a good mobile presention will stretch out nicely for larger screens.
+
+Sometimes, when we stretch out to larger screens, we need to make minor tweaks for the larger devices -- you can make these tweaks in the tablet media query, or if the issue exists on desktop only, the desktop media query.
+You will find this is far easier than the opposite task of using CSS to cram your desktop experience into a mobile device.
+*/
+/*********************************************************************
+ LOADS IN A NICE RESET TO ENSURE ALL BROWSERS HAVE THE SAME BASE STYLES
+*********************************************************************/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+/*********************************************************************
+  YOUR MOBILE/BASE STYLES GO HERE
+*********************************************************************/
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    font-size: 16px;
+}
+
+
+img{
+    display: flex;
+    width: 100%;
+
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding:  10px;
+}
+
+.container.photo{
+    padding: 5px;
+    /*width: 100%;*/
+    display: flex;
+    max-width: 900px;
+}
+
+
+.flex > div {
+    margin-bottom: 10px;
+
+}
+
+
+p {
+    font-family: 'PT Sans';
+    font-size: 16px;
+    }
+
+b {
+        font-family: 'PT Sans';
+        font-size: 20px;
+    }
+
+h1 {
+    font-family: 'Noto Sans Display', sans-serif
+}
+
+h2{
+    color: gray;
+    font-size: 20px;
+    /*text-align: center;*/
+    text-align: justify;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.titulo {
+    font-family: 'PT Sans';
+    color:052C37;
+    font-size: 36px;
+    }
+
+.byline {
+    font-family: 'PT Sans';
+    color:1D677C;
+     font-size: 20px;
+    }
+
+}
+
+
+.boxes{
+   /* border: 1px solid blue;*/
+   /* height: 300px;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    padding: 10px;*/
+
+}
+
+#box1{
+    /*background-color: #d2f4f9;*/
+}
+
+/*#box2{
+    background-color: lightslategray;
+}
+*/
+.icon-text {
+    padding: 10px;
+    text-align: justify;
+    font-family: 'Noto Sans Display', sans-serif 
+}
+
+.ref-text{
+    padding: 15px;
+    text-align: justify;
+    font-size: 10px;
+    font-family: 'Noto Sans Display', sans-serif 
+}
+
+
+
+/*.container-icons {
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    max-width: 1200px;
+}*/
+
+
+
+
+/*********************************************************************
+  YOUR TABLET/DESKTOP STYLES GO HERE
+*********************************************************************/
+@media(min-width: 681px) {
+    /* Any adjustments for tablets and larger go here.
+    Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex > div {
+    flex-basis: 30%;
+    flex-wrap: wrap-reverse;
+}
+
+}
+}
+
+/*********************************************************************
+  YOUR DESKTOP-ONLY STYLES GO HERE
+*********************************************************************/
+@media(min-width: 729px) {
+    /* Any adjustments for desktop and larger go here.
+    Note these styles will be applied to anything 729px or larger -- so desktop */
+}
+
+p.caption{
+    max-width: 900px;
+}
