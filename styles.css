@@ -76,13 +76,13 @@ b {
         font-size: 20px;
     }
 
-.titulo {
+h1 {
     font-family: 'PT Sans';
     color:052C37;
     font-size: 36px;
     }
 
-.byline {
+h2 {
     font-family: 'PT Sans';
     color:1D677C;
      font-size: 20px;
