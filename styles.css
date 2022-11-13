@@ -50,12 +50,6 @@ align-content: center;
 
 .flex > div {margin-bottom: 10px;}
 
-p.caption {
-    font-size: 16px;
-    color: black;
-    margin: 0;
-    float:  right;
-
 }
  .box {
     border: 1px solid black;
@@ -86,6 +80,12 @@ h2 {
     font-family: 'PT Sans';
     color:267;
      font-size: 20px;
+    }
+
+h3 {
+    font-family: 'PT Sans';
+    color:267;
+     font-size: 16px;
     }
 
 }
