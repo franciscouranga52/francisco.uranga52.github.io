@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!-- set the character set -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- first step to a responsive site -->
+    <title>Monkeypox: WHO recommends not to repeat the stigma of HIV</title>
+
+	 <!-- FONT AWESOME -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css">
+
+	<!-- Your styles should be called here -->
+	<link rel="stylesheet" href="styles.css" >
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+</head>
+<body>
+	<!-- YOUR CONTENT GOES HERE -->
+    <div class="container">
+		<h1 class="titulo"> Monkey Pox: WHO recommends not to repeat the stigma of the 90´s with HIV-AIDS </h1>
+		<h2 class="byline"> By Eduardo Salazar Uribe </h2>
+		<b> November 13, 2022</b>
+	</div>
+
+	<div class="container photo">
+		<img src="https://cdn.who.int/media/images/default-source/emergencies/monkeypox_uk_2022.tmb-1200v.jpeg" alt=” Monkeypox”>
+	</div>
+	<div>
+		<p> Credit: World Health Organization (WHO) </p> 
+	</div>
+	<div>
+		p> The first cases identified in United States were predominantly among men who have sex with men. The characteristics of a particular outbreak, however, should not lead us to assume that this is a sexually transmitted disease part only of the LGTBI community. </p>
+	</div>
+	<div class="flex">
+ 		<div class= "icon1"> 
+ 			<div class ="pic">
+				<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+ 			</div>
+			<div class ="text">
+				<b> "We cannot exclude" </b>
+				<p> The transmission of monkeypox to other population groups, warned a report from the Health Department of United States, which reports that health services are conducting an "active search"; for cases. The WHO has also reported that the virus is being sequenced in different cases to see if they are related.</p>
+			</div>
+		</div>
+ 		<div class= "icon2"> 
+ 			<div class ="pic">
+	 			<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+ 			</div>
+			<div class ="text">
+				<b> How is the Monkey Pox spread? </b>
+				<p> The disease, identified for the first time in monkeys, does not spread easily among people, so experts assure that the risk for the population is low and an expansion like that of the COVID-19 pandemic was not expected. <br>
+				In order to become infected, close contact with infectious material is necessary. It can occur by touching the skin lesions, like those of chickenpox, which appear on infected persons, but also by "respiratory droplets in prolonged face-to-face contact" or through contaminated objects.</p>
+			</div>
+		</div>
+ 		<div class= "icon3"> 
+ 			<div class ="pic">
+	 			<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+ 			</div>
+			<div class ="text">
+				<b> It is not a new disease, it is endemic in some countries of Central and West Africa </b>
+				<p> According to the World Health Organization, monkeypox virus is endemic in 12 countries: Benin, Cameroon, Central African Republic, Democratic Republic of Congo, Gabon, Ghana (identified only in animals), Ivory Coast, Liberia, Nigeria, Republic of Congo, Sierra Leone and South Sudan. </p>
+			</div>
+		</div>
+	</div>
+	<div class="container">    
+		<p> Source: <a href='https://www.cdc.gov/poxvirus/monkeypox/symptoms/index.html'> WHO – World Health Organization. Center for Disease Control and Prevention – US. </a></p>
+	</div>	
+    <!-- Your javascript should be called here -->
+</body>
+</html>
