@@ -16,15 +16,6 @@ You will find this is far easier than the opposite task of using CSS to cram you
 *********************************************************************/
 * {
     box-sizing: border-box;
-}
-  .main {
-    margin: 0 auto;
-    padding: 0.7em;
-    max-width: 1200px;
-    border: 1px solid black;
-    height: 800px;
-    back
-    }
 
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
@@ -42,23 +33,6 @@ align-content: center;
             padding: 10px;
  }
 
-.container.photo {
-    padding: 15px;
-    max-width: 500px;
-
-}
-
-.flex > div {margin-bottom: 10px;}
-
-}
- .box {
-    border: 1px solid black;
-    margin: 0.5em;
-    padding: 0.5em;
-    flex-direction: end;
-}
-
-}
   
 p {
     font-family: 'PT Sans';
@@ -113,7 +87,7 @@ h3 {
 display: flex;
 justify-content: flex-start;
 flex-direction: row;
-flex-basis:  50%; 
+flex-basis:  70%; 
 
 }
 
@@ -121,27 +95,14 @@ flex-basis:  50%;
  display: flex;
 justify-content: flex-start;
 flex-direction: row;
-flex-basis:  50%; 
+flex-basis:  70%; 
 }
 
 {.icon3
 display: flex;
 justify-content: flex-start;
 flex-direction: row;
-flex-basis:  50%; 
-}
-
-{.icon4
-display: flex;
-justify-content: flex-start;
-flex-direction: row;
-flex-basis:  50%; 
-}
-
-           
-flex > div {flex-basis: 30%;
-    }
-
+flex-basis:  70%; 
 }
 
 
@@ -155,43 +116,27 @@ flex > div {flex-basis: 30%;
 .icon1{
 display: flex;
 flex-direction: row;
-flex-basis:  50%; 
+flex-basis:  70%; 
 
 }
 
 .icon2{
 display: flex;
 flex-direction: row;
-flex-basis:  50%; 
+flex-basis:  70%; 
 
 }
 
 .icon3{
 display: flex;
 flex-direction: row;
-flex-basis:  50%; 
-
-}
-
-.icon4{
-display: flex;
-
-flex-direction: row;
-flex-basis:  50%; 
-
-}
-
-.icon5{
-display: flex;
-
-flex-direction: row;
-flex-basis:  50%; 
+flex-basis:  70%; 
 
 }
 
 .pic{
-   max-width: 100px;
-   max-height:90px;
+   max-width: 150px;
+   max-height:120px;
 
 }
 
